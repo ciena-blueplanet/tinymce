@@ -3,10 +3,10 @@
   "version": "4.5.12",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tinymce/tinymce.git"
+    "url": "https://github.com/ciena-blueplanet/tinymce"
   },
   "description": "TinyMCE rich text editor",
-  "author": "Johan Sörlin <spocke@moxiecode.com>",
+  "author": "Ciena",
   "bugs": {
     "url": "http://www.tinymce.com/develop/bugtracker.php"
   },
@@ -15,7 +15,8 @@
     "node": ">=0.10.26"
   },
   "scripts": {
-    "test": "grunt bedrock"
+    "test": "grunt bedrock",
+    "build": "grunt --force"
   },
   "devDependencies": {
     "@ephox/bolt": "^1.6.0",
